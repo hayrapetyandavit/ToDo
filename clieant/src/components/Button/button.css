@@ -1,0 +1,16 @@
+@import "../../style//variables.css";
+
+.button {
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 25px;
+  color: var(--white);
+  background: var(--dark-purple);
+  border-radius: 6px;
+  border: none;
+  padding: 8px 10px;
+}
+.button:active {
+  opacity: 0.8;
+  box-shadow: 0px 0px 12px 0px var(--dark-purple);
+}

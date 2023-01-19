@@ -1,0 +1,10 @@
+@import "../../style//variables.css";
+
+.list__container {
+  width: 70%;
+  margin: 25px 0px;
+}
+.show-list {
+  padding: 38px;
+  box-shadow: 0px 0px 24px 0px var(--dark-purple);
+}

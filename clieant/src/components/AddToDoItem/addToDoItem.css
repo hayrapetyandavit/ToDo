@@ -1,0 +1,32 @@
+@import "../../style//variables.css";
+
+.add-item__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1%;
+  box-shadow: 0px 0px 24px 0px var(--dark-purple);
+  margin-bottom: 20px;
+}
+.add-item__container > input {
+  width: 30%;
+  border-radius: 4px;
+  border: 1px solid rgb(180, 180, 160);
+  box-shadow: 0px 0px 4px 0px rgb(180, 180, 160);
+  background-color: transparent;
+  margin: 20px 0px;
+}
+
+.add-item__container > input:hover,
+.add-item__container > input:focus {
+  outline: none;
+  box-shadow: 0px 0px 12px 0px var(--dark-purple);
+}
+.add-item__container > button {
+  width: 8%;
+  margin: 20px 0px;
+  box-shadow: 0px 0px 8px 0px var(--dark-purple);
+}
+.add-item__container > button:hover {
+  box-shadow: 0px 0px 12px 0px var(--dark-purple);
+}

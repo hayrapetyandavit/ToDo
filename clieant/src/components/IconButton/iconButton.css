@@ -1,0 +1,13 @@
+.icon-button {
+  color: var(--grey);
+  cursor: pointer;
+  border: none;
+  background: var(--ligth-brown);
+}
+.icon-button:active,
+.ticon-button:active {
+  transform: scale(0.8);
+}
+.disable-button {
+  opacity: 0.4;
+}
